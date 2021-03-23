@@ -6,6 +6,15 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
+:root{
+	--black: #070D0D;
+	--powderBlue: #BEE9E8;
+	--maximumBlue: #62B6CB;
+	--indigoBlue: #1B4965;
+	--columbiaBlue: #CAE9FF;
+	--carolinaBlue: #5FA8D3;
+}
+
 /* Basic */
 
 	body {
@@ -471,8 +480,8 @@
 /* Header */
 
 	#header {
-		background: #333333;
-		/*background: #47b9e6;*/
+		/*background: #333333;*/
+		background: var(--powderBlue);
 		background-size: ;
 		color: #fff;
 		padding-top: 6em;
