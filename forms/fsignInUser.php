@@ -8,7 +8,7 @@
   <input type="text" name="givenLastname" placeholder="Sukunimesi" maxlength="40"/>
   </p>
 
-  <p>Email <br />  
+  <p>Sähköposti <br />  
   <input type="text" name="givenEmail" placeholder="Sähköpostiosoitteesi" maxlength="40"/>
   </p>
 
@@ -34,12 +34,12 @@
   </p>
 
   <p>
-  Password <br /> 
+  Salasana<br /> 
   <input type="password" name="givenPassword" placeholder="password min 8 chars" maxlength="40"/>
   </p>
   
   <p>
-  Password verification <br />  
+  Salasana uudelleen <br />  
   <input type="password" name="givenPasswordVerify" placeholder="password again" maxlength="40"/>
   </p>
 
