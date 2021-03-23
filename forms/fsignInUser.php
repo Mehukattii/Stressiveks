@@ -35,12 +35,12 @@
 
   <p>
   Salasana<br /> 
-  <input type="password" name="givenPassword" placeholder="password min 8 chars" maxlength="40"/>
+  <input type="password" name="givenPassword" placeholder="salasana min 8 merkkiä" maxlength="40"/>
   </p>
   
   <p>
   Salasana uudelleen <br />  
-  <input type="password" name="givenPasswordVerify" placeholder="password again" maxlength="40"/>
+  <input type="password" name="givenPasswordVerify" placeholder="salasana uudelleen" maxlength="40"/>
   </p>
 
   <p><br />
