@@ -13,13 +13,15 @@
 	--indigoBlue: #1B4965;
 	--columbiaBlue: #CAE9FF;
 	--carolinaBlue: #5FA8D3;
+	--peachPuff:  #FDDDC3;
 	--white: #FFFFFF;
 }
 
 /* Basic */
 
 	body {
-		background: #222833;
+		/*background: #222833;*/
+		box-sizing: border-box;
 	}
 
 	body, input, select, textarea {
@@ -148,7 +150,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #3ac984;
+			border-color: var(--maximumBlue);
 		}
 
 	input[type="text"],
@@ -482,8 +484,7 @@
 
 	#header {
 		/*background: #333333;*/
-		background: var(--powderBlue);
-		background-size: ;
+		background: var(--carolinaBlue);
 		color: #fff;
 		padding-top: 6em;
 		text-align: center;
@@ -513,6 +514,27 @@
 
 	#logo {
 		font-size: 2em;
+	}
+	body{
+		margin: 0;
+	}
+
+	#header2 {
+		background: var(--carolinaBlue);
+		color: #fff;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	#header2 h1{
+		margin: 0;
+	}
+
+	#logo2 {
+		font-size: 1em;
+		font-weight: 300;
 	}
 
 	#nav > ul {
@@ -551,6 +573,53 @@
 			#nav > ul > li > ul {
 				display: none;
 			}
+
+/*Login form*/
+
+#loginForm {
+	display: flex;
+	flex-direction: column;
+    border: 1px solid var(--black);
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 30px;
+	justify-content: center;
+	border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 35px 10px #888888;
+}
+#loginForm h1{
+	text-align: center;
+}
+
+
+.btn {
+	padding: 15px 45px 15px 45px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--peachPuff);
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+.btn:hover {
+	background-color: #FBC79D;
+	cursor: pointer;
+}
+
+#registertext{
+	text-align: center;
+}
+
+#registertext a {
+	color: var(--indigoBlue);
+}
 
 /* Dropotron */
 

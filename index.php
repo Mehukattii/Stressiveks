@@ -1,8 +1,13 @@
 <?php
 include("config/cconfig.php");
-include("config/chttps.php");
+//include("config/chttps.php");
 session_start();
+  
+if (!isset($_SESSION['sloggedIn'])){
+header('Location: logInUser.php');
+}
 ?>
+
 <!DOCTYPE HTML>
 
 <html>
@@ -38,7 +43,7 @@ session_start();
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Etusivu</a></li>
+								<li><a href="index.php">Etusivu</a></li>
 								<li><a href="no-sidebar.html">HRV</a></li>
 								<li><a href="left-sidebar.html">Profiili</a></li>
 								<li><a href="right-sidebar.html">Päiväkirja</a></li>
@@ -60,39 +65,14 @@ session_start();
 										<h3>
 											<?php echo "Hei, " . $_SESSION['sfirstname'] ."!"; ?> 
 										</h3>
-									<?php  
-										else  :?> 
-										<button class= "button alt" onclick="openForm()" >Kirjaudu</button>
-									<?php endif ?> 
-										<span class="byline"> </span>
+										<?php endif ?>
 									</header>
-									<div class="form-popup" id="myForm">
-										<form method="post" class="form-container">
-											<h1>Kirjaudu sisään</h1>
-
-											<label for="email"><b>Sähköposti</b></label>
-											<input type="text" placeholder="Anna sähköposti" name="givenEmail" required>
-
-											<label for="psw"><b>Salasana</b></label>
-											<input type="password" placeholder="Anna salasana" name="givenPassword" required>
-
-											<button type="submit" name = "submitUser" class="btn">Kirjaudu</button>
-											<button type="submit" name = "submitBack" class="btn cancel" onclick="closeForm()">Sulje</button>
-										</form>
-										<?php
-											include("logInUser.php");
-										?>
-										<p>Eikö tiliä vielä löydy? <br> <a href="signInUser.php">rekisteröidy</a> tästä</p>
-										</div>
-										 
-											<p>  
-												<strong> 
-													
-												</strong> 
-											</p> 
-											 
-											
 									
+									<p>  
+										<strong> 
+											
+										</strong> 
+									</p> 
 								</section>			
 							</div>
 						</div>
