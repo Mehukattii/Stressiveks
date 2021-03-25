@@ -1,7 +1,27 @@
+
+
 <?php
  include("config/cconfig.php");
  session_start();
  ?>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Stressiveks</title>
+ </head>
+ <body>
+ <div id="header2">
+    <h1><a href="#" id="logo2">Stressiveks</a></h1>
+</div>
+<?php
+  include("forms/flogInUser.php");
+?>
+ </body>
+ </html>
 
 
 <?php
