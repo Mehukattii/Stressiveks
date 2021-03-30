@@ -1,20 +1,34 @@
 <?php
 include("config/cconfig.php");
-include("forms/fsignInUser.php"); 
+ 
 ?>
-
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Stressiveks</title>
+ </head>
+ <body>
+ <div id="header2">
+    <h1><a href="#" id="logo2">Stressiveks</a></h1>
+</div>
 
 <?php
+include("forms/fsignInUser.php");
+
 //***Tarkistetaan syötteet myös palvelimella
 if (isset($_POST['submitUser'])){
 
-    if(!strlen($_POST['givenFirstname'])>=4){
+    if(strlen($_POST['givenFirstname']) < 2){
       $_SESSION['swarningInput']="Illegal username (min 4 chars)";
-    }elseif(!strlen($_POST['givenLastname'])>=4){
-      $_SESSION['swarningInput']="Illegal username (min 4 chars)";
+    }elseif(strlen($_POST['givenLastname']) < 2){
+      $_SESSION['swarningInput']="Illegal username2 (min 4 chars)";
     }else if(!filter_var($_POST['givenEmail'], FILTER_VALIDATE_EMAIL)){
       $_SESSION['swarningInput']="Illegal email";
-    }else if(!strlen($_POST['givenPassword'])>=8){
+    }else if(strlen($_POST['givenPassword']) < 8){
       $_SESSION['swarningInput']="Illegal password (min 8 chars)";
     }else if(!$_POST['givenPassword']== $_POST['givenPasswordVerify']){
       $_SESSION['swarningInput']="Given password and verified not same";
@@ -25,7 +39,7 @@ if (isset($_POST['submitUser'])){
     $_SESSION['sloggedIn']="yes";
     $_SESSION['sfirstname']=$_POST['givenFirstname'];
     $_SESSION['slastname']= $_POST['givenLastname'];
-    $_SESSION['semail']= $_POST['givenEmail'];
+    $_SESSION['se360mail']= $_POST['givenEmail'];
     $_SESSION['sage']= $_POST['givenAge'];
     $_SESSION['sheight']= $_POST['givenHeight'];
     $_SESSION['sweight']= $_POST['givenWeight'];
