@@ -1,15 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Stressiveks</title>
-</head>
-<body>
-<div id="header2">
-    <h1><a href="#" id="logo2">Stressiveks</a></h1>
-</div>
+
 <div class="form-login" id="loginForm">
   <form method="post">
     <p>Etunimi<br /> 
@@ -28,11 +17,11 @@
     <input type="number" name="givenAge" placeholder="Ikäsi" maxlength="40"/>
     </p>
 
-    <p>Pituus<br /> 
+    <p>Pituus (cm)<br /> 
     <input type="number" name="givenHeight" placeholder="Pituutesi" maxlength="40"/>
     </p>
 
-    <p>Paino<br /> 
+    <p>Paino (kg)<br /> 
     <input type="number" name="givenWeight" placeholder="Painosi" maxlength="40"/>
     </p>
 
@@ -47,16 +36,17 @@
 
     <p>
     Salasana<br /> 
-    <input type="password" name="givenPassword" placeholder="password min 8 chars" maxlength="40"/>
+    <input type="password" name="givenPassword" placeholder="Salasana vähintään 8 merkkiä" maxlength="40"/>
     </p>
     
     <p>
     Salasana uudelleen <br />  
-    <input type="password" name="givenPasswordVerify" placeholder="password again" maxlength="40"/>
+    <input type="password" name="givenPasswordVerify" placeholder="Salasana uudelleen" maxlength="40"/>
     </p>
 
-    <p><br />
-    <input type="submit" name="submitUser" class="btn" value="Submit"/>
-            <input type="reset" class="btn"  value="Reset"/>
+    <p id="signInButtons"><br />
+    <input type="submit" name="submitUser" class="btn" value="Rekisteröidy"/>
+    <input type="reset" class="btn"  value="Tyhjennä"/>
+    <input type="reset" class="btn" onclick="window.location.href='index.php'"  value="Palaa"/>
     </p>
   </form>
