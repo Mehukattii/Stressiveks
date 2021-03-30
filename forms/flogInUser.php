@@ -3,12 +3,12 @@
     <form method="post" class="form-container">
         <h1>Kirjaudu sisään</h1>
 
-        <label for="email"><b>Sähköposti</b></label>
+        <p><b>Sähköposti</b>
         <input type="text" placeholder="Anna sähköposti" name="givenEmail" required>
-
-        <label for="psw"><b>Salasana</b></label>
+        </p>
+        <p><b>Salasana</b>
         <input type="password" placeholder="Anna salasana" name="givenPassword" required>
-
+        </p>
         <button type="submit" name = "submitUser" class="btn">Kirjaudu</button>
     </form>
 
