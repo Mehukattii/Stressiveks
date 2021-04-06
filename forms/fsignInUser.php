@@ -1,46 +1,46 @@
 
 <div class="form-login" id="loginForm">
   <form method="post">
-    <p>Etunimi<br /> 
+    <p><b>Etunimi </b><br /> 
     <input type="text" name="givenFirstname" placeholder="Etunimesi" maxlength="40"/>
     </p>
 
-    <p>Sukunimi<br /> 
+    <p><b>Sukunimi </b><br /> 
     <input type="text" name="givenLastname" placeholder="Sukunimesi" maxlength="40"/>
     </p>
 
-    <p>Sähköposti <br />  
+    <p><b>Sähköposti </b> <br />  
     <input type="text" name="givenEmail" placeholder="Sähköpostiosoitteesi" maxlength="40"/>
     </p>
 
-    <p>Ikä<br /> 
-    <input type="number" name="givenAge" placeholder="Ikäsi" maxlength="40"/>
+    <p><b>Ikä </b><br /> 
+    <input type="number" name="givenAge" placeholder="Ikäsi" />
     </p>
 
-    <p>Pituus (cm)<br /> 
-    <input type="number" name="givenHeight" placeholder="Pituutesi" maxlength="40"/>
+    <p><b>Pituus (cm) </b> <br /> 
+    <input type="number" name="givenHeight" placeholder="Pituutesi"/>
     </p>
 
-    <p>Paino (kg)<br /> 
-    <input type="number" name="givenWeight" placeholder="Painosi" maxlength="40"/>
+    <p><b>Paino (kg) </b> <br /> 
+    <input type="number" name="givenWeight" placeholder="Painosi" />
     </p>
 
-    <p>Sukupuoli<br /> 
-    <input type="radio" name="givenGender" value = "male" />
+    <p><b>Sukupuoli </b> <br /> 
+    <input type="radio" id="male" name="givenGender" value = "Mies">
     <label for="male">Mies</label><br>
-    <input type="radio" name="givenGender" value = "female" />
+    <input type="radio" id="female" name="givenGender" value = "Nainen">
     <label for="female">Nainen</label><br>
-    <input type="radio" id="other" name="givenGender" value="other">
+    <input type="radio" id="other" name="givenGender" value="Muu">
     <label for="other">Muu</label>
     </p>
 
     <p>
-    Salasana<br /> 
+    <b>Salasana</b><br /> 
     <input type="password" name="givenPassword" placeholder="Salasana vähintään 8 merkkiä" maxlength="40"/>
     </p>
     
     <p>
-    Salasana uudelleen <br />  
+    <b>Salasana uudelleen </b> <br />  
     <input type="password" name="givenPasswordVerify" placeholder="Salasana uudelleen" maxlength="40"/>
     </p>
 
@@ -50,3 +50,4 @@
     <input type="reset" class="btn" onclick="window.location.href='index.php'"  value="Palaa"/>
     </p>
   </form>
+</div>
