@@ -44,9 +44,9 @@ header('Location: logInUser.php');
 						<nav id="nav">
 							<ul>
 								<li><a href="index.php">Etusivu</a></li>
-								<li><a href="no-sidebar.html">HRV</a></li>
-								<li><a href="left-sidebar.html">Profiili</a></li>
-								<li><a href="right-sidebar.html">Päiväkirja</a></li>
+								<li><a href="HRV.php">HRV</a></li>
+								<li><a href="profiili.php">Profiili</a></li>
+								<li><a href="paivakirja.php">Päiväkirja</a></li>
 								<?php  
 									if (isset($_SESSION['sloggedIn'])) : ?>
 									<li><a href="logOutUser.php">Kirjaudu ulos</a></li>
