@@ -26,11 +26,11 @@
     </p>
 
     <p><b>Sukupuoli </b> <br /> 
-    <input type="radio" id="male" name="givenGender" value = "male">
+    <input type="radio" id="male" name="givenGender" value = "Mies">
     <label for="male">Mies</label><br>
-    <input type="radio" id="female" name="givenGender" value = "female">
+    <input type="radio" id="female" name="givenGender" value = "Nainen">
     <label for="female">Nainen</label><br>
-    <input type="radio" id="other" name="givenGender" value="other">
+    <input type="radio" id="other" name="givenGender" value="Muu">
     <label for="other">Muu</label>
     </p>
 
