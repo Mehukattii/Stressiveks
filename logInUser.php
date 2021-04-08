@@ -49,7 +49,7 @@ if(isset($_POST['submitUser'])){
           if(password_verify($givenPasswordAdded,$tulosOlio->userPassword)){
               $_SESSION['sloggedIn']="yes";
               $_SESSION['sfirstname']=$tulosOlio->userFirstname;
-              $_SESSION['sfastname']=$tulosOlio->userLastname;
+              $_SESSION['slastname']=$tulosOlio->userLastname;
               $_SESSION['semail']=$tulosOlio->userMail;
               $_SESSION['sage']=$tulosOlio->userAge;
               $_SESSION['sheight']=$tulosOlio->userHeight;

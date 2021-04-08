@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE HTML>
 <!--
 	Horizons by TEMPLATED
@@ -6,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Profiili</title>
+		<title>Stressiveks</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -29,15 +32,15 @@
 				<div class="container">
 						
 					<!-- Logo -->
-						<h1><a href="#" id="logo">Untitled</a></h1>
+						<h1><a href="#" id="logo">Stressiveks</a></h1>
 					
 					<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="index.php">Etusivu</a></li>
 							<li><a href="HRV.php">HRV</a></li>
-							<li><a href="profiili.php">Profiili</a></li>
 							<li><a href="paivakirja.php">Päiväkirja</a></li>
+							<li><a href="profiili.php" class="active"> Profiili </a></li>
 							<?php  
 								if (isset($_SESSION['sloggedIn'])) : ?>
 								<li><a href="logOutUser.php">Kirjaudu ulos</a></li>
@@ -49,133 +52,50 @@
 			</div>
 
 		<!-- Main -->
-			<div id="main" class="wrapper style1">
+			<div id="main2" class="wrapper style1">
 				<div class="container">
 					<div class="row">
 					
 						<!-- Sidebar -->
 						<div id="sidebar" class="4u sidebar">
-							<section>
+							<section id="profileleft">
 								<header class="major">
-									<h2>Etiam malesuada</h2>
+								<h2>
+										
+									
+								</h2>
 								</header>
 								<div class="row half">
-									<section class="6u">
-										<ul class="default">
-											<li><a href="#">Donec facilisis tempor</a></li>
-											<li><a href="#">Nulla convallis cursus</a></li>
-											<li><a href="#">Integer congue euis</a></li>
-											<li><a href="#">Venenatis vulputate</a></li>
-											<li><a href="#">Morbi ligula volutpat</a></li>
-										</ul>
-									</section>
-									<section class="6u">
-										<ul class="default">
-											<li><a href="#">Donec facilisis tempor</a></li>
-											<li><a href="#">Nulla convallis cursus</a></li>
-											<li><a href="#">Integer congue euis</a></li>
-											<li><a href="#">Venenatis vulputate</a></li>
-											<li><a href="#">Morbi ligula volutpat</a></li>
-										</ul>
-									</section>
+									<img src="images/profilepic.png" id="avatar" alt="avatar">
+									<a href="" class="editbtn">Muokkaa tietoja</a>
 								</div>
 							</section>
-							<section>
-								<header class="major">
-									<h2>Mauris vulputate</h2>
-								</header>
-								<ul class="default">
-									<li><a href="#">Pellentesque lectus gravida blandit</a></li>
-									<li><a href="#">Lorem ipsum consectetuer adipiscing</a></li>
-									<li><a href="#">Phasellus nibh pellentesque congue</a></li>
-									<li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-									<li><a href="#">Maecenas vitae orci feugiat eleifend</a></li>
-									<li><a href="#">Phasellus nibh pellentesque congue</a></li>
-									<li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-								</ul>
-							</section>
-						</div>
 						
 						<!-- Content -->
 						<div id="content" class="8u skel-cell-important">
-							<section>
-								<header class="major">
-									<h2>Left Sidebar</h2>
-									<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-								</header>
-								<p>Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna. Quisque eleifend. Aliquam lacinia metus ut elit. Donec ornare neque ac sem. Mauris aliquet.</p>
-								<p>Donec nonummy magna quis risus. Quisque eleifend. Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Phasellus tempor vehicula.</p>
-								<p>Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit.</p>
+							<section id="profileright">
+								<h2>
+									<?php echo $_SESSION['sfirstname'];?> 
+									<?php echo $_SESSION['slastname'];?>	
+									<br>
+									<?php 
+									echo $_SESSION['sage'] . " vuotta <br>" .
+									$_SESSION['sheight'] . " cm <br>" .
+									$_SESSION['sweight'] . " kg <br>" .
+									$_SESSION['semail'];
+								
+
+									?>
+								</h2>
+								
 							</section>
+							
 						</div>
-					
-					</div>
+						
 				</div>
 			</div>
 
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container">
-
-					<!-- Lists -->
-						<div class="row">
-							<div class="8u">
-								<section>
-									<header class="major">
-										<h2>Donec dictum metus</h2>
-										<span class="byline">Quisque semper augue mattis wisi maecenas ligula</span>
-									</header>
-									<div class="row">
-										<section class="6u">
-											<ul class="default">
-												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
-												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
-												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
-												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
-											</ul>
-										</section>
-										<section class="6u">
-											<ul class="default">
-												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
-												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
-												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
-												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
-											</ul>
-										</section>
-									</div>
-								</section>
-							</div>
-							<div class="4u">
-								<section>
-									<header class="major">
-										<h2>Donec dictum metus</h2>
-										<span class="byline">Mattis wisi maecenas ligula</span>
-									</header>
-									<ul class="contact">
-										<li>
-											<span class="address">Address</span>
-											<span>1234 Somewhere Road #4285 <br />Nashville, TN 00000</span>
-										</li>
-										<li>
-											<span class="mail">Mail</span>
-											<span><a href="#">someone@untitled.tld</a></span>
-										</li>
-										<li>
-											<span class="phone">Phone</span>
-											<span>(000) 000-0000</span>
-										</li>
-									</ul>	
-								</section>
-							</div>
-						</div>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-						</div>
-
-				</div>
-			</div>
+		
 
 	</body>
 </html>

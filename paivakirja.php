@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE HTML>
 <!--
 	Horizons by TEMPLATED
@@ -6,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Päiväkirja</title>
+		<title>Stressiveks</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -29,15 +32,15 @@
 				<div class="container">
 						
 					<!-- Logo -->
-						<h1><a href="#" id="logo">Untitled</a></h1>
+						<h1><a href="#" id="logo">Stressiveks</a></h1>
 					
 					<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="index.php">Etusivu</a></li>
 							<li><a href="HRV.php">HRV</a></li>
+							<li><a href="paivakirja.php" class="active" >Päiväkirja</a></li>
 							<li><a href="profiili.php">Profiili</a></li>
-							<li><a href="paivakirja.php">Päiväkirja</a></li>
 							<?php  
 								if (isset($_SESSION['sloggedIn'])) : ?>
 								<li><a href="logOutUser.php">Kirjaudu ulos</a></li>
