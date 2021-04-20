@@ -18,6 +18,28 @@
 }
 
 /* Basic */
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 0;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  body, html {
+	height: 100%;
+  }
+  
+  body {
+	background: #dfebed;
+	font-family: 'Roboto', sans-serif;
+  }
+  
 
 	* {
 		/*background: #222833;*/
@@ -598,6 +620,7 @@
 	border-radius: 5px;
 	border-radius: 5px;
 	box-shadow: 10px 10px 35px 10px #888888;
+	margin-bottom: 10px;
 }
 #loginForm h1{
 	text-align: center;
@@ -617,6 +640,15 @@
 	font-weight: bold;
 }
 
+#deleteUser{
+	background-color: #ff4d4d;
+	color: #fff;
+}
+
+#deleteUser:hover{
+	background-color: #ff3333;
+}
+
 .btn:hover {
 	background-color: #FBC79D;
 	cursor: pointer;
@@ -633,8 +665,15 @@
 #signInButtons{
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
+}
+
+#signInButtons2{
+	display: flex;
+	flex-direction: row;
 	justify-content: flex-start;
 }
+
 
 
 

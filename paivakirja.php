@@ -32,7 +32,7 @@ session_start();
 				<div class="container">
 						
 					<!-- Logo -->
-						<h1><a href="#" id="logo">Stressiveks</a></h1>
+						<h1><a href="index.php" id="logo">Stressiveks</a></h1>
 					
 					<!-- Nav -->
 					<nav id="nav">

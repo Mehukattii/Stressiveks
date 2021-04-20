@@ -32,7 +32,7 @@ session_start();
 				<div class="container">
 						
 					<!-- Logo -->
-						<h1><a href="#" id="logo">Stressiveks</a></h1>
+						<h1><a href="index.php" id="logo">Stressiveks</a></h1>
 					
 					<!-- Nav -->
 					<nav id="nav">
@@ -67,7 +67,7 @@ session_start();
 								</header>
 								<div class="row half">
 									<img src="images/profilepic.png" id="avatar" alt="avatar">
-									<a href="" class="editbtn">Muokkaa tietoja</a>
+									<a href="updateUser.php" class="editbtn">Muokkaa tietoja</a>
 								</div>
 							</section>
 						
@@ -94,8 +94,5 @@ session_start();
 						
 				</div>
 			</div>
-
-		
-
 	</body>
 </html>
