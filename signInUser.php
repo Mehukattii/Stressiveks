@@ -39,7 +39,7 @@ if (isset($_POST['submitUser'])){
     $_SESSION['sloggedIn']="yes";
     $_SESSION['sfirstname']=$_POST['givenFirstname'];
     $_SESSION['slastname']= $_POST['givenLastname'];
-    $_SESSION['se360mail']= $_POST['givenEmail'];
+    $_SESSION['semail']= $_POST['givenEmail'];
     $_SESSION['sage']= $_POST['givenAge'];
     $_SESSION['sheight']= $_POST['givenHeight'];
     $_SESSION['sweight']= $_POST['givenWeight'];
