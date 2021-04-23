@@ -42,6 +42,7 @@ session_start();
 						<ul>
 							<li><a href="index.php">Etusivu</a></li>
 							<li><a href="HRV.php" class="active" >HRV</a></li>
+              <li><a href="stressindex.php">Stressi-indeksi</a></li>
 							<li><a href="paivakirja.php">Päiväkirja</a></li>
 							<li><a href="profiili.php">Profiili</a></li>
 							<?php  
