@@ -38,15 +38,15 @@ header('Location: logInUser.php');
 				<div class="container">
 						
 					<!-- Logo -->
-						<h1><a href="#" id="logo">Stressiveks</a></h1>
+						<h1><a href="index.php" id="logo">Stressiveks</a></h1>
 					
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.php">Etusivu</a></li>
+								<li><a href="index.php" class="active">Etusivu</a></li>
 								<li><a href="HRV.php">HRV</a></li>
-								<li><a href="profiili.php">Profiili</a></li>
 								<li><a href="paivakirja.php">Päiväkirja</a></li>
+								<li><a href="profiili.php">Profiili</a></li>
 								<?php  
 									if (isset($_SESSION['sloggedIn'])) : ?>
 									<li><a href="logOutUser.php">Kirjaudu ulos</a></li>
