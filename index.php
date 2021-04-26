@@ -84,21 +84,21 @@ header('Location: logInUser.php');
 			<div class="wrapper style2">
 				<section class="container">
 					<header class="major">
-						<h2>Nulla luctus eleifend</h2>
-						<span class="byline">Mauris vulputate dolor sit amet nibh</span>
+						<h3>Omasta hyvinvoinnista kannattaa pitää huolta ja siihen voi vaikuttaa monin eri keinoin.</h3>
+						<span class="byline">TOP 3 vinkit hyvinvoinnin vahvistamiseen</span>
 					</header>
 					<div class="row no-collapse-1">
 						<section class="4u">
-							<a href="#" class="image feature"><img src="images/pic02.jpg" alt=""></a>
-							<p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
+							<a href="#" class="image feature"><img src="images/food.jpg" alt="Hyvinvointiimme vaikuttaa se miten syömme"></a>
+							<p>Se miten syömme, vaikuttaa olennaisesti hyvinvointiimme. Ruokailun säännöllisyys, ruoan laatu ja monipuolisuus vaikuttavat siihen, että kehomme saa ruoasta kaiken tarpeellisen, jolloin voimme fyysisesti ja psyykkisesti paremmin. Veden juontia ei kannata myöskään unohtaa.</p>
 						</section>
 						<section class="4u">
-							<a href="#" class="image feature"><img src="images/pic03.jpg" alt=""></a>
-							<p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis. Donec magna.</p>
+							<a href="#" class="image feature"><img src="images/sport.jpg" alt="Liikkumisesta apua hyvinvoinnin parantamiseen"></a>
+							<p>Liikkuminen on helppo tapa huoltaa kehoa ja mieltä. Sen tuottama välitön mielihyvän tunne lievittää hetkellisesti huolia ja murheita. Pitkäaikaiset hyödyt mielen hyvinvointiin on kiistattomat. Säännöllinen liikkuminen torjuu ahdistusta ja masennusta sekä auttaa unensaannissa.</p>
 						</section>
 						<section class="4u">
-							<a href="#" class="image feature"><img src="images/pic04.jpg" alt=""></a>
-							<p>Curabitur sem urna, consequat vel, suscipit convallis sem leo, mattis placerat, nulla. Sed ac leo.</p>
+							<a href="#" class="image feature"><img src="images/sleep.jpg" alt="Uni on välttämätöntä hyvinvoinnin kannalta"></a>
+							<p>Riittävä ja palauttava uni on välttämätöntä hyvinvoinnin kannalta. Uni toimii usein mittarina sille, kuinka hyvin voimme ja palaudumme. Unen lisääminen on paras tapa panostaa omaan hyvinvointiin. Mikäli yön aikana ei ole saanut riittävästi unta ja lepoa, lyhytaikaisilla päiväunilla voi saada lisää virtaa päivään.</p>
 						</section>
 	
 					</div>
@@ -109,8 +109,7 @@ header('Location: logInUser.php');
 			<div id="main" class="wrapper style1">
 				<section class="container">
 					<header class="major">
-						<h2>Nulla luctus eleifend</h2>
-						<span class="byline">Mauris vulputate dolor sit amet nibh</span>
+						<h2>Sykevälivaihtelun ABC</h2>
 					</header>
 					<div class="row">
 					
@@ -120,8 +119,8 @@ header('Location: logInUser.php');
 									<ul class="style">
 										<li>
 											<span class="fa fa-wrench"></span>
-											<h3>Integer ultrices</h3>
-											<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
+											<h3>Sykevälivaihtelu</h3>
+											<span>Sykevälivaihtelu on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen.</span>
 										</li>
 										<li>
 											<span class="fa fa-cloud"></span>
