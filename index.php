@@ -118,7 +118,7 @@ header('Location: logInUser.php');
 								<section>
 									<ul class="style">
 										<li>
-											<span class="fa fa-wrench"></span>
+											<span class="fa fa-heartbeat"></span>
 											<h3>Sykevälivaihtelu</h3>
 											<span>Sykevälivaihtelu on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen.</span>
 										</li>
