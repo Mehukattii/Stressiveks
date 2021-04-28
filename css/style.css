@@ -4,7 +4,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
 :root{
 	--black: #070D0D;
@@ -15,6 +15,10 @@
 	--carolinaBlue: #225B81;
 	--peachPuff:  #FDDDC3;
 	--white: #FFFFFF;
+}
+
+#skel-layers-inactiveWrapper{
+	display: none;
 }
 
 /* Basic */
@@ -373,7 +377,7 @@
 			width: 80px;
 			height: 80px;
 			margin-right: 1em;
-			background: #3ac984;
+			background: var(--peachPuff);
 			line-height: 80px;
 			text-align: center;
 			border-radius: 10px;

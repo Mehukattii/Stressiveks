@@ -1,6 +1,6 @@
 <?php
 include("config/cconfig.php");
-//include("config/chttps.php");
+include("config/chttps.php");
 session_start();
   
 if (!isset($_SESSION['sloggedIn'])){
@@ -16,6 +16,7 @@ header('Location: logInUser.php');
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
@@ -45,6 +46,7 @@ header('Location: logInUser.php');
 							<ul>
 								<li><a href="index.php" class="active">Etusivu</a></li>
 								<li><a href="HRV.php">HRV</a></li>
+								<li><a href="stressindex.php">Stressi-indeksi</a></li>
 								<li><a href="paivakirja.php">Päiväkirja</a></li>
 								<li><a href="profiili.php">Profiili</a></li>
 								<?php  
@@ -123,7 +125,7 @@ header('Location: logInUser.php');
 											<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
 										</li>
 										<li>
-											<span class="fa fa-cloud"></span>
+											<span class="fa fa-beer"></span>
 											<h3>Aliquam luctus</h3>
 											<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
 										</li>
