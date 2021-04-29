@@ -1,6 +1,6 @@
 <?php
 include("config/cconfig.php");
-//include("config/chttps.php");
+include("config/chttps.php");
 session_start();
   
 if (!isset($_SESSION['sloggedIn'])){
@@ -16,6 +16,7 @@ header('Location: logInUser.php');
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
@@ -118,14 +119,14 @@ header('Location: logInUser.php');
 								<section>
 									<ul class="style">
 										<li>
-											<span class="fa fa-heartbeat"></span>
-											<h3>Sykevälivaihtelu</h3>
-											<span>Sykevälivaihtelu on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen.</span>
+											<span class="fa fa-heart"></span>
+											<h3>Sykevälivaihtelu eli HRV</h3>
+											<span>Sykevälivaihtelu (Heart Rate Variability) on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen.</span>
 										</li>
 										<li>
-											<span class="fa fa-cloud"></span>
-											<h3>Aliquam luctus</h3>
-											<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
+											<span class="fa fa-beer"></span>
+											<h3>Autonominen hermosto</h3>
+											<span></span>
 										</li>
 									</ul>
 								</section>
@@ -135,13 +136,13 @@ header('Location: logInUser.php');
 									<ul class="style">
 										<li>
 											<span class="fa fa-cogs"></span>
-											<h3>Integer ultrices</h3>
-											<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
+											<h3></h3>
+											<span></span>
 										</li>
 										<li>
 											<span class="fa fa-leaf"></span>
-											<h3>Aliquam luctus</h3>
-											<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
+											<h3>Mittaamisen hyödyt</h3>
+											<span>Sykevälivaihtelun mittaamisen avulla voidaan seurata, kuinka hyvin henkinen ja fyysinen stressi ja palautuminen ovat tasapainossa. Sykevälivaihtelu on objektiivinen merkki elimistön reagoimisesta sisäisiin ja ulkoisiin ärsykkeisiin.</span>
 										</li>
 									</ul>
 								</section>
@@ -214,6 +215,12 @@ header('Location: logInUser.php');
 
 				</div>
 			</div>
+
+		<footer>
+			<?php
+   				include("includes/footer.php")
+			?>
+		</footer>
 
 	</body>
 </html>
