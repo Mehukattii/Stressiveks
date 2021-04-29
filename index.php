@@ -121,12 +121,12 @@ header('Location: logInUser.php');
 										<li>
 											<span class="fa fa-heart"></span>
 											<h3>Sykevälivaihtelu eli HRV</h3>
-											<span>Sykevälivaihtelu (Heart Rate Variability) on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen.</span>
+											<span>Sykevälivaihtelu (Heart Rate Variability) on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen. Yleensä stressaavissa tilanteissa sydämen peräkkäisten lyöntien välisen ajan vaihtelu pienenee. Stressaava tilanne voi olla sekä psyykkistä että fyysistä. Levollisen ja stressittömän ihmisen sykevälivaihtelu kasvaa, jolloin parasympaattisen hermoston aktiivisuus on lisääntynyt ja sympaattisen hermoston aktiivisuus vähentynyt.<br><br></span>
 										</li>
 										<li>
-											<span class="fa fa-beer"></span>
-											<h3>Autonominen hermosto</h3>
-											<span></span>
+											<span class="fa fa-hourglass-half"></span>
+											<h3>Sykevälivaihtelun mittaaminen</h3>
+											<span>Mittaamiseen tarvitaan sensori, esimerkiksi sykevyö, jolla sydämen toimintaa voidaan mitata. Jotta mittaaminen olisi luotettavaa, on tärkeää kehittää mittausrutiini. Rutiinin avulla mittaustapahtuman aikana ei pääse syntymään epäsäännöllisyyksiä, jolloin datan analysoiminen on helpompaa. Mittaus kannattaa siis tehdä aina mahdollisimman samalla tavalla, esimerkiksi aamulla ennen puhelimen ilmoituksien selaamista (tunnereaktioiden välttäminen). </span>
 										</li>
 									</ul>
 								</section>
@@ -135,14 +135,14 @@ header('Location: logInUser.php');
 								<section>
 									<ul class="style">
 										<li>
-											<span class="fa fa-cogs"></span>
-											<h3></h3>
-											<span></span>
+											<span class="fa fa-refresh"></span>
+											<h3>Autonominen hermosto</h3>
+											<span>Käsittää kaksi haaraa, sympaattisen ja parasympaattisen hermoston. Autonomista hermostoa tarvitaan elintoimintojen säätelyyn. Toiminta on jatkuvaa hermostojen toiminnan tasapainottelua – toisen hermoston aktiivisuuden lisääntyessä toisen hermoston aktiivisuus vähenee. Hermoston toiminta on nopeastikin muuttuvaa ympäröivien olosuhteiden seurauksena. Kun kohdataan ärsyke, sympaattisen hermoston aktiivisuus lisääntyy ja parasympaattisen hermoston aktiivisuus vähenee. Tästä syystä sympaattista hermostoa kutsutaan ”Taistele tai pakene” -hermostoksi.</span>
 										</li>
 										<li>
-											<span class="fa fa-leaf"></span>
+											<span class="fa fa-check-square"></span>
 											<h3>Mittaamisen hyödyt</h3>
-											<span>Sykevälivaihtelun mittaamisen avulla voidaan seurata, kuinka hyvin henkinen ja fyysinen stressi ja palautuminen ovat tasapainossa. Sykevälivaihtelu on objektiivinen merkki elimistön reagoimisesta sisäisiin ja ulkoisiin ärsykkeisiin.</span>
+											<span>Sykevälivaihtelun mittaamisen avulla voidaan seurata, kuinka hyvin henkinen ja fyysinen stressi ja palautuminen ovat tasapainossa. Sykevälivaihtelu on objektiivinen merkki elimistön reagoimisesta sisäisiin ja ulkoisiin ärsykkeisiin. Näin ollen mittaustuloksia keräämällä ja niiden pitkän ja lyhyen aikavälin muutoksia tarkastelemalla voidaan esimerkiksi optimoida työtapoja ja saada uniikkia tietoa kehon reagoimisesta erilaisiin fyysisiin ja psyykkisiin ärsykkeisiin.</span>
 										</li>
 									</ul>
 								</section>
@@ -210,17 +210,13 @@ header('Location: logInUser.php');
 
 					<!-- Copyright -->
 						<div class="copyright">
-							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+							Design: <a href="http://templated.co">TEMPLATED</a>
 						</div>
 
 				</div>
 			</div>
 
-		<footer>
-			<?php
-   				include("includes/footer.php")
-			?>
-		</footer>
+	
 
 	</body>
 </html>

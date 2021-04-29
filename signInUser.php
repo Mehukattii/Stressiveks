@@ -3,7 +3,7 @@ include("config/cconfig.php");
  
 ?>
 <!DOCTYPE html>
- <html lang="en">
+ <html lang="fi">
  <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,3 +95,4 @@ if(isset($_SESSION['swarningInput'])){
   echo("<p class=\"warning\">ILLEGAL INPUT: ". $_SESSION['swarningInput']."</p>");
 }
 ?>
+
