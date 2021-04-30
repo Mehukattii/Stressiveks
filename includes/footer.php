@@ -71,7 +71,7 @@ p {
     <span class="close">&times;</span>
     <p> Mikä on Stressiveks? <br><br>
 
-        Stressiveks on sykevälivaihtelun analysoinnin avuksi luotu sovellus. <br><br>
+        Stressiveks on sykevälivaihtelun (HRV) analysoinnin avuksi luotu sovellus. <br><br>
         Stressiveksin tavoitteena on parantaa työperäisen stressin tunnistettavuutta ja ennakoivasti parantaa työntekijän työssä jaksamista. Kohderyhmämme ovat 18–64-vuotiaat toimistotyöntekijät. Työperäistä stressiä pyritään tunnistamaan mittaamalla työntekijän sykevälivaihtelua kahden viikon ajan, jonka lisäksi kirjataan tuntemuksia ja tapahtumia päiväkirjaan. Päivän tapahtumat voidaan näin yhdistää sykevälivaihtelun muutoksiin. Stressiveksistä löytyy ohjeita, joilla muistutetaan muista hyvinvointia ja terveyttä edistävistä toimista. <br><br>
         Tarkoituksenamme olla yhdessä työterveyshuollon kanssa mahdollistamassa parempaa työhyvinvointia ja vähentämässä työperäistä stressiä. 
     </p>
