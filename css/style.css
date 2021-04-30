@@ -829,6 +829,10 @@
 
 /* Footer */
 
+	footer{
+		text-align: center;
+	}
+
 	#footer {
 		padding: 4em 0;
 		color: #fff;

@@ -5,7 +5,7 @@
  session_start();
  ?>
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="fi">
  <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,7 +29,7 @@
 if(isset($_POST['submitUser'])){
   //***Tarkistetaan syötteet myös palvelimella
   if(!filter_var($_POST['givenEmail'], FILTER_VALIDATE_EMAIL)){
-   $_SESSION['swarningInput']="Illegal email";
+   $_SESSION['swarningInput']="Virhe kirjautumisessa: ";
   }else{
     unset($_SESSION['swarningInput']); 
      try {
@@ -56,10 +56,10 @@ if(isset($_POST['submitUser'])){
               $_SESSION['sweight']=$tulosOlio->userWeight;
               header("Location: index.php"); //Palataan pääsivulle kirjautuneena
           }else{
-            $_SESSION['swarningInput']="Wrong password";
+            $_SESSION['swarningInput']="Virheellinen salasana";
           }
       }else{
-        $_SESSION['swarningInput']="Wrong email";
+        $_SESSION['swarningInput']="Virheellinen sähköpostiosoite";
       }
      } catch(PDOException $e) {
         file_put_contents('log/DBErrors.txt', 'signInUser.php: '.$e->getMessage()."\n", FILE_APPEND);
@@ -82,9 +82,13 @@ if(isset($_POST['submitBack'])){
 <?php
   //***Näytetäänkö lomakesyötteen aiheuttama varoitus?
 if(isset($_SESSION['swarningInput'])){
-  echo("<p class=\"warning\">ILLEGAL INPUT: ". $_SESSION['swarningInput']."</p>");
+  echo("<p class=\"warning\">Virhe kirjautumisessa: ". $_SESSION['swarningInput']."</p>");
 }
 ?>
 
-
+<footer>
+			<?php
+   				include("includes/footer.php")
+			?>
+</footer>
 
