@@ -25,7 +25,7 @@ session_start();
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="right-sidebar">
+	<body class="no-sidebar">
 
 		<!-- Header -->
 			<div id="header">
