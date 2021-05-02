@@ -40,7 +40,7 @@
   }
   
   body {
-	background: #dfebed;
+	/*background: #dfebed;*/
 	font-family: 'Roboto', sans-serif;
   }
   
@@ -737,7 +737,7 @@
 	}
 
 	#main {
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 
 	
@@ -848,6 +848,11 @@
 
 	#header .major{
 	padding-bottom: 1em;
+	}
+
+	/*HRV sivu*/
+	#hrvmarking{
+		width: 30%;
 	}
 
 /* Footer */
