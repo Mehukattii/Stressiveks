@@ -95,6 +95,8 @@ session_start();
 						
 				</div>
 			</div>
+			</div>
+			</div>
 
 		<footer>
 			<?php
