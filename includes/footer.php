@@ -1,91 +1,60 @@
+<!-- Footer -->
+    <div id="footer">
+		<div class="container">
 
-<nav>
-<style>/*PopUp - ikkuna*/
+		<!-- Lists -->
+			<div class="row">
+				<div class="8u">
+					<section>
+						<header class="major">
+							<h2>Stressiveks</h2>
+					    </header>
+							<div class="row">
+								<section class="6u">
+									<ul class="default">
+                                        <li><a href="stressiveks.php">Mikä on Stressiveks?</a></li>
+                                        <li><a href="contact.php">Ota yhteyttä</a></li>
+										<li><a href="tietosuojaseloste.php">Tietosuojaseloste</a></li>
+										<li><a href="kayttoehdot.php">Käyttöehdot</a></li>
+									</ul>
+								</section>
+							</div>
+					</section>
+				</div>
+				<div class="4u">
+					<section>
+						<header class="major">
+							<h2>Ota yhteyttä</h2>
+                            <span class="byline">Ota yhteyttä suoraan meihin tai viereisellä yhteydenottolomakkeella</span>
+						</header>
+							<ul class="contact">
+							<li>
+							    <span class="address">Osoite</span>
+								<span>Stressitönkatu 5<br />00150, Helsinki</span>
+							</li>
+						    <li>
+							    <span class="mail">Sähköposti</span>
+								<span><a href="# ">info@stressiveks.fi</a></span>
+							</li>
+							<li>
+								<span class="phone">Puhelin</span>
+							    <span>+358 40 123 4567</span>
+							</li>
+							</ul>	
+					</section>
+				</div>
+                <p>
+                             ©2021 Stressiveks Oy
+                </p>
+	</div>
 
-.modal {
-  display: none; 
-  position: fixed;
-  z-index: 1; 
-  padding-top: 100px; /* Sijainti */
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-/* PopUpin sisältö */
-.modal-content {
-  background-color: #F9F9F9;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  text-shadow:none;
-}
+					<!-- Copyright -->
+						<div class="copyright">
+							Design: <a href="http://templated.co">TEMPLATED</a>
+						</div>
 
-/* Sulkunappi */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+				</div>
+			</div>
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-#myBtn {
-  border: none;
-  background-color: inherit;
-  padding-top: 40px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  color: black;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-
-p {
-  text-align: center;
-}
-
-</style>
-
-<div class="frontpage">
-    <button id="myBtn">Mikä on Stressiveks?</button>
-
-<!-- Ikkuna -->
-  <div id="myModal" class="modal">
-
-  <!-- Ikkunan sisältö -->
-    <div class="modal-content">
-    <span class="close">&times;</span>
-    <p> Mikä on Stressiveks? <br><br>
-
-        Stressiveks on sykevälivaihtelun (HRV) analysoinnin avuksi luotu sovellus. <br><br>
-        Stressiveksin tavoitteena on parantaa työperäisen stressin tunnistettavuutta ja ennakoivasti parantaa työntekijän työssä jaksamista. Kohderyhmämme ovat 18–64-vuotiaat toimistotyöntekijät. Työperäistä stressiä pyritään tunnistamaan mittaamalla työntekijän sykevälivaihtelua kahden viikon ajan, jonka lisäksi kirjataan tuntemuksia ja tapahtumia päiväkirjaan. Päivän tapahtumat voidaan näin yhdistää sykevälivaihtelun muutoksiin. Stressiveksistä löytyy ohjeita, joilla muistutetaan muista hyvinvointia ja terveyttä edistävistä toimista. <br><br>
-        Tarkoituksenamme olla yhdessä työterveyshuollon kanssa mahdollistamassa parempaa työhyvinvointia ja vähentämässä työperäistä stressiä. 
-    </p>
-    </div>
-
-  </div>
-
-<script src="js/popup.js"></script>
-</div>
-
-    </nav>
-
-<hr>
-<hr>
-<p>
-  ©2021 Stressiveks Oy
-</p>
+	
