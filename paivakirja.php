@@ -9,7 +9,7 @@ session_start();
 -->
 <html>
 	<head>
-    <title>Stressiveks</title>
+    <title>Päiväkirja</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -59,12 +59,13 @@ session_start();
 				<div class="container">
 					<section>
 						<header class="major">
-							<h2>Päiväkirja</h2>
-							<span class="byline">
-                                <?php
-                                echo date("d.m.Y");
-                            ?>
-                            </span>
+							<h3>
+								<?php
+                              	  echo date("d.m.Y");
+                            	?>
+							</h3>
+							<p>Jotta sykevälivaihtelua voidaan analysoida, on tärkeää, että kirjaat päiväsi tapahtumat mahdollisimman tarkasti ylös</p>
+							<p>Tämän päiväkirjan avulla on helppo seurata päivän tapahtumia</p>
 						</header>
 						<style>
 #chartdiv {

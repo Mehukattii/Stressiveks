@@ -68,8 +68,20 @@ session_start();
                                 Stressiveks on sykevälivaihtelun (HRV) analysoinnin avuksi luotu sovellus. <br><br>
                                 Stressiveksin tavoitteena on parantaa työperäisen stressin tunnistettavuutta ja ennakoivasti parantaa työntekijän työssä jaksamista. Kohderyhmämme ovat 18–64-vuotiaat toimistotyöntekijät. Työperäistä stressiä pyritään tunnistamaan mittaamalla työntekijän sykevälivaihtelua kahden viikon ajan, jonka lisäksi kirjataan tuntemuksia ja tapahtumia päiväkirjaan. Päivän tapahtumat voidaan näin yhdistää sykevälivaihtelun muutoksiin. Stressiveksistä löytyy ohjeita, joilla muistutetaan muista hyvinvointia ja terveyttä edistävistä toimista. <br><br>
                                 Tarkoituksenamme olla yhdessä työterveyshuollon kanssa mahdollistamassa parempaa työhyvinvointia ja vähentämässä työperäistä stressiä. 
-                                </p>
-
+                                </p><br>
+						</section>
+						<section>
+								<header class="major">
+									<h3>Sykevälivaihtelun analysointi</h3>
+								</header>
+								<p>
+								Sykevälivaihtelua tarkastellaan sydämensykkeiden välisistä aikaeroista eli RR-intervalleista. Eri mittauksista saatuja tuloksia voidaan vertailla keskenään vain silloin, kun mittaukset ovat olleet keskenään saman pituiset ja data on kerätty samalla menetelmällä. 
+								Tämän vuoksi mittausrutiinin kehittäminen on tärkeää. </p>
+								<h4>Sykevälivaihtelussa hyödynnettäviä arvoja:</h4>
+								<p><b>SDNN</b> (Standard Deviation of NN intervals) tarkoittaa sykevälien eli NN-intervallien keskihajontaa tietyllä ajanjaksolla. SDNN ilmaisee kokonaissykevälivaihtelua. Se kuvaa autonomisen hermoston aktiivisuutta ja kertoo sykevälivaihtelun määrästä.</p>
+								<p><b>RMSSD</b>	(Root Mean Square of Successive NN -Interval Differences) kertoo peräkkäisten sykevälien (RR-intervallien) keskimääräisestä vaihtelusta millisekunteina. RMSSD on ensisijainen aikatason parametri, jolla määritetään miten parasympaattinen hermosto on vaikuttanut sykevälivaihtelun muutoksiin välillisesti.</p>
+								<p><b>Stressi-indeksi</b> kuvaa parasympaattisen hermoston vaikutuksen vähenemistä ja sympaattisen hermoston aktivoitumista stressaavan tilanteen (fyysinen tai psyykkinen) vaikutuksesta. Stressi-indeksi lasketaan kaavalla, jossa huomioidaan useimmin esiintyvä RR-intervallin arvo, RR-intervallien vaihteluväli sekä useimmin esiintyvien RR-intervallien määrä suhteutettuna RR-intervallien kokonaismäärään</p>
+						</section>
 				</div>
 			</div>
 

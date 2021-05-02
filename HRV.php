@@ -9,7 +9,7 @@ session_start();
 -->
 <html>
 	<head>
-    <title>Stressiveks</title>
+    <title>Sykevälivaihtelu</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -59,8 +59,10 @@ session_start();
 				<div class="container">
 					<section>
 						<header class="major">
-							<h2>No Sidebar</h2>
-							<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+							<h3>Sykevälivaihtelu ja stressi-indeksi</h3>
+              <p><b>Sykevälivaihtelu (Heart Rate Variability)</b> on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen. Yleensä stressaavissa tilanteissa sydämen peräkkäisten lyöntien välisen ajan vaihtelu pienenee.</p>
+							<p><b>Stressi-indeksi</b> kuvaa parasympaattisen hermoston vaikutuksen vähenemistä ja sympaattisen hermoston aktivoitumista stressaavan tilanteen vaikutuksesta.</p><br>
+              <p>Viimeisimmän sykevälivaihtelun mittaustuloksen graafinen kuvaus: </p>
 						</header>
 	
 						<div id="tester" style="width:100%;"></div>
@@ -672,7 +674,7 @@ categoryAxis.dataFields.category = "category";
  
  
 var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
-valueAxis.min = 1; //muokkaa nämä valuet
+valueAxis.min = 1; 
 valueAxis.max = 20;
 valueAxis.tooltip.disabled = true;
 valueAxis.maxPrecision = 0;
@@ -698,7 +700,7 @@ chart.scrollbarX = new am4core.Scrollbar();
 <br>
 <div id="hrvmarking">
 	<form method="post" class="form-container">
-	<h2>Lisää stressi-index merkintä</h2>
+	<h3>Lisää saamasi stressi-indeksin arvo</h3>
 
 	<p><b>Stressitaso</b>
 	<input type="number" placeholder="Stressitasosi" name="givenStress" required>
