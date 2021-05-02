@@ -46,17 +46,18 @@
                 
 	</div>
 
-                <p>
-                             ©2021 Stressiveks Oy
-                </p>
 
 
-					<!-- Copyright -->
-						<div class="copyright">
-							Design: <a href="http://templated.co">TEMPLATED</a>
-						</div>
+		<!-- Copyright -->
+		<div class="copyright">
+			Design: <a href="http://templated.co">TEMPLATED</a>
+		</div>
 
-				</div>
-			</div>
+        <p>
+            © 2021 Stressiveks Oy
+        </p>
+
+	</div>
+</div>
 
 	
