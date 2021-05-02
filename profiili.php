@@ -52,7 +52,7 @@ session_start();
 				</div>
 			</div>
 
-		<!-- Main -->
+		<!-- Sisältö -->
 			<div id="main2" class="wrapper style1">
 				<div class="container">
 					<div class="row">
@@ -101,6 +101,7 @@ session_start();
    				include("includes/footer.php")
 			?>
 		</footer>
+
 		
-	</body>
+</body>
 </html>
