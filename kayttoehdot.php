@@ -78,7 +78,7 @@ session_start();
 								
                                 <h4>4.	Henkilötietojen käsittely</h4>
 								<p>Joissakin sivuston osissa voidaan pyytää antamaan henkilötietoja esim. rekisteröinnin yhteydessä. Stressiveks Oy käsittelee henkilötietoja huolellisesti lainsäädännön mukaisesti ja huolehtii yksityisyyden suojan toteutumisesta henkilötietojen käsittelyssä. Kerättyjä tietoja voidaan tallettaa Stressiveks Oy:n henkilörekistereihin, jolloin tietoja käytetään selosteissa määriteltyihin tarkoituksiin.
-								Rekisteröity voi tarkastaa henkilötietonsa ottamalla yhteyttä rekisteristä vastaavaan henkilöön tai <a href="# ">info@stressiveks.fi</a>. Stressiveks Oy oikaisee tai poistaa puutteelliset, väärät tai vanhentuneet henkilötiedot pyynnöstä.
+								Rekisteröity voi tarkastaa henkilötietonsa ottamalla yhteyttä rekisteristä vastaavaan henkilöön tai <a href="contact.php">info@stressiveks.fi</a>. Stressiveks Oy oikaisee tai poistaa puutteelliset, väärät tai vanhentuneet henkilötiedot pyynnöstä.
 								Henkilötietojen käsittelyyn annettu suostumus voidaan milloin tahansa peruuttaa ilmoittamalla siitä Stressiveks Oy:lle. Henkilötietojen käsittely voi olla välttämätöntä palvelun tarjoamiseksi. Tällöin suostumuksen peruuttaminen voi johtaa tilanteeseen, ettei palvelua voida enää tarjota.</p>
 								<p>
 
