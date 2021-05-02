@@ -43,10 +43,12 @@
 							</ul>	
 					</section>
 				</div>
+                
+	</div>
+
                 <p>
                              ©2021 Stressiveks Oy
                 </p>
-	</div>
 
 
 					<!-- Copyright -->
