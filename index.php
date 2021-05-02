@@ -45,8 +45,7 @@ header('Location: logInUser.php');
 						<nav id="nav">
 							<ul>
 								<li><a href="index.php" class="active">Etusivu</a></li>
-								<li><a href="HRV.php">HRV</a></li>
-								<li><a href="stressindex.php">Stressi-indeksi</a></li>
+								<li><a href="HRV.php">Sykevälivaihtelu</a></li>
 								<li><a href="paivakirja.php">Päiväkirja</a></li>
 								<li><a href="profiili.php">Profiili</a></li>
 								<?php  
@@ -121,10 +120,10 @@ header('Location: logInUser.php');
 										<li>
 											<span class="fa fa-heart"></span>
 											<h3>Sykevälivaihtelu eli HRV</h3>
-											<span>Sykevälivaihtelu (Heart Rate Variability) on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen. Yleensä stressaavissa tilanteissa sydämen peräkkäisten lyöntien välisen ajan vaihtelu pienenee. Stressaava tilanne voi olla sekä psyykkistä että fyysistä. Levollisen ja stressittömän ihmisen sykevälivaihtelu kasvaa, jolloin parasympaattisen hermoston aktiivisuus on lisääntynyt ja sympaattisen hermoston aktiivisuus vähentynyt.<br><br></span>
+											<span>Sykevälivaihtelu (Heart Rate Variability) on sydämen sykkeiden välisen eron vaihtelevuutta. Se kuvastaa sydämen kyvykkyyttä reagoida muuttuviin olosuhteisiin ja odottamattomaan ärsykkeeseen. Yleensä stressaavissa tilanteissa sydämen peräkkäisten lyöntien välisen ajan vaihtelu pienenee. Stressaava tilanne voi olla sekä psyykkistä että fyysistä. Levollisen ja stressittömän ihmisen sykevälivaihtelu kasvaa, jolloin parasympaattisen hermoston aktiivisuus on lisääntynyt ja sympaattisen hermoston aktiivisuus vähentynyt.</span>
 										</li>
 										<li>
-											<span class="fa fa-hourglass-half"></span>
+											<span class="fa fa-gear"></span>
 											<h3>Sykevälivaihtelun mittaaminen</h3>
 											<span>Mittaamiseen tarvitaan sensori, esimerkiksi sykevyö, jolla sydämen toimintaa voidaan mitata. Jotta mittaaminen olisi luotettavaa, on tärkeää kehittää mittausrutiini. Rutiinin avulla mittaustapahtuman aikana ei pääse syntymään epäsäännöllisyyksiä, jolloin datan analysoiminen on helpompaa. Mittaus kannattaa siis tehdä aina mahdollisimman samalla tavalla, esimerkiksi aamulla ennen puhelimen ilmoituksien selaamista (tunnereaktioiden välttäminen). </span>
 										</li>

@@ -38,8 +38,7 @@ session_start();
 					<nav id="nav">
 						<ul>
 							<li><a href="index.php">Etusivu</a></li>
-							<li><a href="HRV.php">HRV</a></li>
-							<li><a href="stressindex.php">Stressi-indeksi</a></li>
+							<li><a href="HRV.php">Sykevälivaihtelu</a></li>
 							<li><a href="paivakirja.php">Päiväkirja</a></li>
 							<li><a href="profiili.php" class="active"> Profiili </a></li>
 							<?php  
@@ -90,9 +89,9 @@ session_start();
 								</h2>
 								
 							</section>
-							
+								</div>
 						</div>
-						
+					</div>
 				</div>
 			</div>
 	</body>

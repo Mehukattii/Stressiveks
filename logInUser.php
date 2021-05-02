@@ -29,7 +29,7 @@
 if(isset($_POST['submitUser'])){
   //***Tarkistetaan syötteet myös palvelimella
   if(!filter_var($_POST['givenEmail'], FILTER_VALIDATE_EMAIL)){
-   $_SESSION['swarningInput']="Virhe kirjautumisessa: ";
+   $_SESSION['swarningInput']="Sähköposti syötetty virheellisessä muodossa ";
   }else{
     unset($_SESSION['swarningInput']); 
      try {

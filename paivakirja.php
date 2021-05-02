@@ -41,8 +41,7 @@ session_start();
 					<nav id="nav">
 						<ul>
 							<li><a href="index.php">Etusivu</a></li>
-							<li><a href="HRV.php" >HRV</a></li>
-              				<li><a href="stressindex.php">Stressi-indeksi</a></li>
+							<li><a href="HRV.php" >Sykevälivaihtelu</a></li>
 							<li><a href="paivakirja.php" class="active" >Päiväkirja</a></li>
 							<li><a href="profiili.php">Profiili</a></li>
 							<?php  
@@ -61,7 +60,11 @@ session_start();
 					<section>
 						<header class="major">
 							<h2>Päiväkirja</h2>
-							<span class="byline">Bla bla bla</span>
+							<span class="byline">
+                                <?php
+                                echo date("d.m.Y");
+                            ?>
+                            </span>
 						</header>
 						<style>
 #chartdiv {
@@ -400,7 +403,7 @@ am4core.ready(function() {
         setTimeout(
             function() {
                 hoverItem(series.dataItems.getIndex(index + 1))
-            }, 1000);
+            }, 1);
     }
 
 });
