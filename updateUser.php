@@ -77,18 +77,21 @@ if (isset($_POST['deleteUser'])){
     $data4['email'] = $_SESSION['semail'];
 
     // id haettiin emailin avulla
-    $sqlQuery2 = "SELECT userID FROM stressiveks_user where userMail = :email";
+   /* $sqlQuery2 = "SELECT userID FROM stressiveks_user where userMail = :email";
     $kysely2 = $DBH->prepare($sqlQuery2);
     $kysely2->execute($data4);
     $tulos2 = $kysely2->fetch();
     $currentUserID = $tulos2[0];
+    
+    
+
 
     $data5['id'] = $currentUserID;
-
-    try{
-        
-        $kysely3 = $DBH->prepare("DELETE * FROM stressiveks_user WHERE userID = :id");
-        $kysely3->execute();
+*/
+    
+try{
+        $kysely3 = $DBH->prepare("DELETE  FROM stressiveks_user where userMail = :email");
+        $kysely3->execute($data4);
         
         session_unset();
         session_destroy();

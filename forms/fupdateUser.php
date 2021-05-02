@@ -25,7 +25,7 @@
     <p id="signInButtons2"><br />
     <input type="submit" name="submitUser" class="btn" value="Päivitä"/>
     <input type="reset" class="btn" onclick="window.location.href='profiili.php'"  value="Palaa"/>
-	<input type="submit" name="deleteUser" class="btn" id = "deleteUser" value="Poista tili"/>
+	  <input type="submit" name="deleteUser" class="btn" id = "deleteUser" value="Poista tili"/>
     </p>
   </form>
 </div>
