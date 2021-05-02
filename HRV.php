@@ -754,6 +754,10 @@ if(isset($_SESSION['swarningInput'])){
 }
 ?>
 
+</section>
+</div>
+</div>
+
 <footer>
 		<?php
    	  		include("includes/footer.php")
