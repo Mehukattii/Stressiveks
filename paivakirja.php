@@ -123,14 +123,14 @@ am4core.ready(function() {
         "end": "2019-01-10 06:15",
         "color": colorSet.getIndex(15),
         "icon": alarm,
-        "text": "Wake up!"
+        "text": "Herätys!"
     }, {
         "category": "",
         "start": "2019-01-10 06:15",
         "end": "2019-01-10 06:30",
         "color": colorSet.getIndex(14),
         "icon": water,
-        "text": "Drink water"
+        "text": "Juo vettä"
     },
     {
         "category": "",
@@ -138,7 +138,7 @@ am4core.ready(function() {
         "end": "2019-01-10 07:00",
         "color": colorSet.getIndex(13),
         "icon": exercise,
-        "text": "Exercise"
+        "text": "Aamulenkki"
     },
     {
         "category": "",
@@ -146,7 +146,7 @@ am4core.ready(function() {
         "end": "2019-01-10 07:30",
         "color": colorSet.getIndex(12),
         "icon": breakfast,
-        "text": "Have breakfast"
+        "text": "Aamupala"
     },
     {
         "category": "",
@@ -154,7 +154,7 @@ am4core.ready(function() {
         "end": "2019-01-10 08:00",
         "color": colorSet.getIndex(11),
         "icon": car,
-        "text": "Drive to work"
+        "text": "Ruuhkassa töihin"
     },
     {
         "category": "",
@@ -162,7 +162,7 @@ am4core.ready(function() {
         "end": "2019-01-10 17:00",
         "color": colorSet.getIndex(10),
         "icon": work,
-        "text": "Work"
+        "text": "Töitä"
     },
     {
         "category": "e",
@@ -170,7 +170,7 @@ am4core.ready(function() {
         "end": "2019-01-10 10:15",
         "color": colorSet.getIndex(10),
         "icon": coffee,
-        "text": "Coffee"
+        "text": "Kahvia!!"
     },
     {
         "category": "e",
@@ -178,7 +178,7 @@ am4core.ready(function() {
         "end": "2019-01-10 13:00",
         "color": colorSet.getIndex(10),
         "icon": dinner,
-        "text": "Dinner"
+        "text": "Lounasaika"
     },
     {
         "category": "e",
@@ -186,7 +186,7 @@ am4core.ready(function() {
         "end": "2019-01-10 14:15",
         "color": colorSet.getIndex(10),
         "icon": coffee,
-        "text": "Coffee"
+        "text": "Lisää kahvia"
     },
     {
         "category": "",
@@ -194,7 +194,7 @@ am4core.ready(function() {
         "end": "2019-01-10 18:00",
         "color": colorSet.getIndex(8),
         "icon": car,
-        "text": "Drive home"
+        "text": "Kotiin"
     },
     {
         "category": "",
@@ -202,7 +202,7 @@ am4core.ready(function() {
         "end": "2019-01-10 21:30",
         "color": colorSet.getIndex(7),
         "icon": home,
-        "text": "Home!"
+        "text": "Kotona"
     },
     {
         "category": "e",
@@ -210,7 +210,7 @@ am4core.ready(function() {
         "end": "2019-01-10 20:30",
         "color": colorSet.getIndex(7),
         "icon": book,
-        "text": "Read a bit"
+        "text": "Kirjan lukemisellekin aikaa"
     },
     {
         "category": "",
@@ -218,7 +218,7 @@ am4core.ready(function() {
         "end": "2019-01-10 22:00",
         "color": colorSet.getIndex(6),
         "icon": beer,
-        "text": "Have a beer"
+        "text": "Yks bisse"
     },
     {
         "category": "",
@@ -226,7 +226,7 @@ am4core.ready(function() {
         "end": "2019-01-10 22:15",
         "color": colorSet.getIndex(5),
         "icon": beer,
-        "text": "Have another beer"
+        "text": "Ja toinen bisse"
     },
     {
         "category": "",
@@ -234,7 +234,7 @@ am4core.ready(function() {
         "end": "2019-01-10 23:00",
         "color": colorSet.getIndex(4),
         "icon": dance,
-        "text": "Dance!"
+        "text": "Tanssimaan"
     },
     {
         "category": "",
@@ -242,7 +242,7 @@ am4core.ready(function() {
         "end": "2019-01-11 00:00",
         "color": colorSet.getIndex(3),
         "icon": drink,
-        "text": "Martini!"
+        "text": "Drinkkiaika"
     },
     {
         "category": "",
@@ -250,7 +250,7 @@ am4core.ready(function() {
         "end": "2019-01-11 01:00",
         "color": colorSet.getIndex(2),
         "icon": drunk,
-        "text": "Damn..."
+        "text": "Ohho..."
     },
     {
         "category": "",
@@ -258,7 +258,7 @@ am4core.ready(function() {
         "end": "2019-01-11 01:00",
         "color": colorSet.getIndex(1),
         "icon": bed,
-        "text": "Bye bye"
+        "text": "Heido"
     }];
 
     chart.fontSize = 10;
@@ -402,10 +402,10 @@ am4core.ready(function() {
 
             previousBullet = bullet;
         }
-        setTimeout(
-            function() {
-                hoverItem(series.dataItems.getIndex(index + 1))
-            }, 1);
+        //setTimeout(
+        //   function() {
+        //       hoverItem(series.dataItems.getIndex(index + 1))
+        //   }, 1);
     }
 
 });
